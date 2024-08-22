@@ -1,0 +1,27 @@
+{
+  "name": "theatre-of-the-mind",
+  "version": "1.0.0",
+  "description": "Foundry VTT Theatre of the Mind Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mondarth/theatre-of-the-mind.git"
+  },
+  "author": "Ulenar of Mondarth",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Mondarth/theatre-of-the-mind/issues"
+  },
+  "homepage": "https://github.com/Mondarth/theatre-of-the-mind#readme",
+  "devDependencies": {
+    "@commitlint/cli": "19.4.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "commitizen": "4.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^8.0.0"
+  }
+}
